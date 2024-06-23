@@ -7,6 +7,6 @@ import './global.less'
 import dayjs from 'dayjs'
 import 'dayjs/locale/zh-cn'
 dayjs.locale('zh-cn')
-
+//前端项目
 const app = createApp(App)
 app.use(router).use(Antd).mount('#app')
